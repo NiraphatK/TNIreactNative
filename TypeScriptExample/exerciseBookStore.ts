@@ -13,7 +13,7 @@ const books: Book[] = [
 ];
 function filterBook(books: Book[]): Book[] {
   return books
-    .filter((book) => book.genre == "fiction" && book.price > 300)
+    .filter((book) => book.genre === "fiction" && book.price > 300)
     .map((book) => ({
       ...book,
       price: book.price * 0.9,
