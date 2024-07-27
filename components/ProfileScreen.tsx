@@ -16,7 +16,7 @@ const ProfileScreen = (): React.JSX.Element => {
   };
 
   return (
-    <View style={[styles.container]}>
+    <View style={styles.container}>
       <View style={styles.profileContainer}>
         <Image style={styles.profileImage} source={image} />
         <View>
