@@ -9,10 +9,10 @@ const ProfileScreen = (): React.JSX.Element => {
   const [image, setImage] = useState(profileImage);
 
   const handleChangeName = () => {
-    setName("Phat");
+    setName(name == "Niraphat Konghuayrob" ? "Phat" : "Niraphat Konghuayrob" );
   };
   const handleChangeImage = () => {
-    setImage(profileImage2);
+    setImage(image == profileImage ? profileImage2 :profileImage);
   };
 
   return (
