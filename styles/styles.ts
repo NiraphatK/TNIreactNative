@@ -1,7 +1,6 @@
 import { StyleSheet } from "react-native";
 
-
-export default StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     alignItems: "center",
     padding: 20,
@@ -30,3 +29,4 @@ export default StyleSheet.create({
     fontWeight: "500",
   },
 });
+export default styles;
