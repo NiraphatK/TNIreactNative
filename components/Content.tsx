@@ -1,34 +1,25 @@
 import { Alert, StyleSheet, Text, View, Button } from "react-native";
-import React from "react";
+import React, { useState } from "react";
+import { stylesPractice } from "../styles/styles";
 
 type AppContentProps = {
-  msg: string;
-  name: string;
+  message: string;
+  fullname: string;
 };
-const Content = ({ msg, name }: AppContentProps) => {
+const Content = ({ message, fullname }: AppContentProps) => {
+  const [displayFullname, setDisplayFullname] = useState("");
+
+  const handleButtonClick = () => {
+    setDisplayFullname(fullname);
+    Alert.alert(`"Hello", Input your fullname: ${fullname}`);
+  };
   return (
-    <View style={styles.content}>
-      <Text style={styles.text}>{msg}</Text>
-      <Button
-        title="Click me"
-        onPress={() => {
-          Alert.alert("Hello", name);
-        }}
-      />
+    <View style={stylesPractice.content}>
+      <Text style={stylesPractice.text}>{message}</Text>
+      <Text style={stylesPractice.text}>{displayFullname}</Text>
+      <Button title="Click me" onPress={handleButtonClick} />
     </View>
   );
 };
 
 export default Content;
-
-const styles = StyleSheet.create({
-  content: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  text: {
-    fontSize: 18,
-    marginBottom: 20,
-  },
-});
