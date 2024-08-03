@@ -1,5 +1,5 @@
-Date: 27-Jul-2024
+Date: 03-Aug-2024
 StudentID: 2213110535
 Name: Niraphat Konghuayrob
 AKA: NiraphatK
-ClassDetail: React Native Fundamental-Style, Flexbox, React Hook & State
+ClassDetail: React Hook & State (useEffect), React Native Component
