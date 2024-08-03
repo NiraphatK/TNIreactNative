@@ -7,7 +7,7 @@ import { stylesPractice } from "./styles/styles";
 import { useEffect, useState } from "react";
 
 export default function App(): React.JSX.Element {
-  const [fullName, setFullname] = useState("");
+  const [fullname, setFullname] = useState("");
   const [message, setMessage] = useState("Message from App.tsx");
   const [footerMessage, setFooterMessage] = useState(
     "Thai-Nichi Institute of Technology"
@@ -17,20 +17,24 @@ export default function App(): React.JSX.Element {
     console.log("Component has mounted");
   }, []);
   useEffect(() => {
-    console.log(`Fullname has changed to ${fullName}`);
-  }, [fullName]);
+    console.log(`Fullname has changed to ${fullname}`);
+  }, [fullname]);
 
- 
+  const handleButtonClick = () => {
+    Alert.alert(`"Hello", Input your fullname: ${fullname}`);
+  };
+
   return (
     <View style={styles.container}>
-      <AppHeader fullname={fullName} message={message} />
-      <Content message={message} fullname={fullName} />
+      <AppHeader fullname={fullname} message={message} />
+      {/* <Content message={message} fullname={fullname} /> */} 
+      <Content message={message} onButtonClick = {handleButtonClick} /> 
       <AppFooter footerMessage={footerMessage} />
-      <View style={{alignItems:"center"}}>
+      <View style={{ alignItems: "center" }}>
         <TextInput
           style={stylesPractice.input}
           placeholder="Enter your fullname"
-          value={fullName}
+          value={fullname}
           onChangeText={setFullname}
         />
       </View>
