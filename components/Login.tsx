@@ -8,13 +8,13 @@ const Login = () => {
 
   const handleSubmit = () => {
     if (!name) {
-      Alert.alert("Please Enter Name");
+      Alert.alert("Alert","Please Enter Name");
     }
     if (!email) {
-      Alert.alert("Please Enter Email");
+      Alert.alert("Alert","Please Enter Email");
     }
     if (name && email){
-      Alert.alert("Success");
+      Alert.alert("Alert","Success");
     }
   };
   return (
