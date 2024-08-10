@@ -5,6 +5,7 @@ import ProfileScreen from "./components/ProfileScreen";
 import UseEffectExample from "./components/UseEffectExample";
 import FlastListExample from "./components/FlastListExample";
 import FlatListcallBackend from "./components/FlatListcallBackend";
+import NewsApp from "./components/NewsApp";
 
 const App = (): React.JSX.Element => {
   return (
@@ -12,7 +13,8 @@ const App = (): React.JSX.Element => {
       {/* <ProfileScreen /> */}
       {/* <UseEffectExample /> */}
       {/* <FlastListExample /> */}
-      <FlatListcallBackend />
+      {/* <FlatListcallBackend /> */}
+      <NewsApp />
       <StatusBar style="auto" />
     </View>
   );
