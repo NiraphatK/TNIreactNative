@@ -6,6 +6,10 @@ import UseEffectExample from "./components/UseEffectExample";
 import FlastListExample from "./components/FlastListExample";
 import FlatListcallBackend from "./components/FlatListcallBackend";
 import NewsApp from "./components/NewsApp";
+import AxiosgetData from "./components/AxiosgetData";
+import AxiospostData from "./components/AxiospostData";
+import WeatherLondon from "./components/WeatherLondon";
+import WeatherBangkok from "./components/WeatherBangkok";
 
 const App = (): React.JSX.Element => {
   return (
@@ -14,7 +18,11 @@ const App = (): React.JSX.Element => {
       {/* <UseEffectExample /> */}
       {/* <FlastListExample /> */}
       {/* <FlatListcallBackend /> */}
-      <NewsApp />
+      {/* <NewsApp /> */}
+      {/* <AxiosgetData/> */}
+      {/* <AxiospostData /> */}
+      {/* <WeatherLondon /> */}
+      <WeatherBangkok/>
       <StatusBar style="auto" />
     </View>
   );
