@@ -1,5 +1,5 @@
-Date: 24-Aug-2024
+Date: 31-Aug-2024
 StudentID: 2213110535
 Name: Niraphat Konghuayrob
 AKA: NiraphatK
-ClassDetail: Making API Requests with Axios / React Native Component: Modal , Image component
+ClassDetail: - React Native Component: Modal , Image component - Navigation: Stack Navigator, Icon Component, useNavigation, useLayoutEffect
