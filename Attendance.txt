@@ -1,5 +1,5 @@
-Date: 31-Aug-2024
+Date: 07-Sep-2024
 StudentID: 2213110535
 Name: Niraphat Konghuayrob
 AKA: NiraphatK
-ClassDetail: - React Native Component: Modal , Image component - Navigation: Stack Navigator, Icon Component, useNavigation, useLayoutEffect
+ClassDetail: Navigation : Stack Navigator >> Icon Component, Config the header bar, useNavigation, useLayoutEffect, Drawer Navigator, React Native Elements, Wrap up Backend >> Postman, Navigation Lifecycle Hooks
