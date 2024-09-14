@@ -12,6 +12,7 @@ import HomeScreen from "./screens/HomeScreen";
 import AboutScreen from "./screens/AboutScreen";
 import MenuScreen from "./screens/MenuScreen";
 import ProductScreen from "./screens/ProductScreen";
+import DetailScreen from "./screens/DetailScreen";
 
 const HomeStack = createNativeStackNavigator();
 const ProductStack = createNativeStackNavigator();
@@ -58,6 +59,7 @@ function ProductStackScreen() {
       }}
     >
       <ProductStack.Screen name="Product" component={ProductScreen} />
+      <ProductStack.Screen name="Details" component={DetailScreen} />
     </ProductStack.Navigator>
   );
 }
