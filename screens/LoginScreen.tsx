@@ -42,8 +42,8 @@ const LoginScreen = (): React.JSX.Element => {
     } catch (error: any) {
       let err: AxiosError<any> = error; // convert to AxiosError
       if (err.response?.status === 401) {
-        Toast.show({ type: "error", text1: err.response?.data.message });
-        // console.log(err.response?.data.message);
+        Toast.show({ type: "error", text1: err.response.data.message });
+        // console.log(err.response.data.message);
       } else {
         // console.log("Unable connect to the server.");
         Toast.show({ type: "error", text1: "Unable connect to the server." });
