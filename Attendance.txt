@@ -1,5 +1,5 @@
-Date: 14-Sep-2024
+Date: 21-Sep-2024
 StudentID: 2213110535
 Name: Niraphat Konghuayrob
 AKA: NiraphatK
-ClassDetail: Recap : Drawer Navigator, React Native Element, Backend >> Postman, Workshop Authentication (Login System)
+ClassDetail: Workshop Authentication (Login System) >> using AsyncStorage(SQLite),  Schema Validation(Yup, React Hook Form), Library Toast, State Management Library >> Redux
