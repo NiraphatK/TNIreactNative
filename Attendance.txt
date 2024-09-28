@@ -1,5 +1,5 @@
-Date: 21-Sep-2024
+Date: 27-Sep-2024
 StudentID: 2213110535
 Name: Niraphat Konghuayrob
 AKA: NiraphatK
-ClassDetail: Workshop Authentication (Login System) >> using AsyncStorage(SQLite),  Schema Validation(Yup, React Hook Form), Library Toast, State Management Library >> Redux
+ClassDetail: State Management Library >> Redux, React Native Navigation >> Bottom Tab Navigator
